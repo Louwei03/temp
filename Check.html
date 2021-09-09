@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>History</title>
+	<link rel="stylesheet" type="text/css" href="css/Check.css">
+	<script type="text/javascript" src="JS/Check.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Native Camp Using History</h1>
+	</header>
+	<section id="Enter">
+		<form>
+			<fieldset>
+			    <legend>New Classes</legend>
+			    <label>Name:</label><br/>
+			    <label>
+			    	<input type="radio" name="name" value="Teresa" id="T">Teresa
+			    </label>
+			    <label>
+			    	<input type="radio" name="name" value="Frank" id="F">Frank
+			    </label>
+			    <label>
+			    	<input type="radio" name="name" value="Vinvin" id="V">Vinvin
+			    </label><br/>
+			    <label>Teacher:<input type="text" name="teacher" id="Teacher"></label><br/>
+				<label>Website:<input type="url" name="url" required id="Url"></label><br/>
+				
+			</fieldset>
+		</form>
+		<button onclick="save()"> Save</button>
+	</section>
+	<section id="Teresa" class="dis">
+		<h2>Teresa's history</h2>
+		<table id="TeresaH" >
+			<thead>
+				<tr><th>Teacher</th><th>website</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>Example</td><td>Link</td></tr>
+			</tbody>
+			<tfoot>
+				<tr><td>Total</td><td id="sum"></td></tr>
+			</tfoot>
+		</table>
+	</section>
+	<section id="Frank" class="dis">
+		<h2>Frank's history</h2>
+		<table id="FrankH" >
+			<thead>
+				<tr><th>Teacher</th><th>website</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>Example</td><td>Link</td></tr>
+			</tbody>
+			<tfoot>
+				<tr><td>Total</td><td id="sum"></td></tr>
+			</tfoot>
+		</table>
+	</section>
+	<section id="Vinvin" class="dis">
+		<h2>Vinvin's history</h2>
+		<table id="VinvinH" >
+			<thead>
+				<tr><th>Teacher</th><th>website</th></tr>
+			</thead>
+			<tbody>
+				<tr ><td>Example</td><td>Link</td></tr>
+			</tbody>
+			<tfoot>
+				<tr><td>Total</td><td id="sum"></td></tr>
+			</tfoot>
+		</table>
+	</section>
+</body>
+</html>
